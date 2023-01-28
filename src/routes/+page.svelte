@@ -15,12 +15,13 @@
 			<picture>
 				<source srcset={welcome} type="image/webp" />
 				<img src={welcome_fallback} alt="Welcome" />
+				<i class="gg-abstract"/>
 			</picture>
 		</span>
 
 		to your new<br />SvelteKit app
 	</h1>
-
+	<button class="btn">Hlelo</button>
 	<h2>
 		try editing <strong>src/routes/+page.svelte</strong>
 	</h2>

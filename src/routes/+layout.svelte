@@ -2,6 +2,7 @@
 	import Header from './Header.svelte';
 	import './styles.css';
 	import '../app.css';
+	import "css.gg/icons/all.css"
 </script>
 
 <div class="app">
