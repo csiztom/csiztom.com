@@ -1,5 +1,5 @@
 <script>
-	import Section from '$lib/components/Section.svelte';
+	import Section from '$lib/components/Section.svelte'
 </script>
 
 <svelte:head>
@@ -7,4 +7,4 @@
 	<meta name="description" content="Personal website" />
 </svelte:head>
 
-<Section type="full-width"/>
+<Section type="full-width" />

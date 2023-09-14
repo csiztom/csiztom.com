@@ -1,0 +1,12 @@
+{
+	"eslint.enable": true,
+	"prettier.enable": false,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true,
+		"source.fixAll.stylelint": true
+	},
+	"editor.formatOnSave": false,
+	"eslint.codeActionsOnSave.rules": null,
+	"eslint.format.enable": true,
+	"eslint.validate": ["javascript", "svelte"],
+}
