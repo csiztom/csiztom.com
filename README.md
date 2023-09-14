@@ -1,22 +1,21 @@
-# create-svelte
+# csiztom.com
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+This is the repository for my personal website / portfolio.
 
-## Creating a project
+The idea for this project is to overengineer a personal website to a degree which might still make sense, but showcases what kind of website will take me no time to make.
 
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+I decided on SvelteKit as it provides an easy flow between backend and frontend, while it is also inegrated with Vercel. Granted, I could have made it any other way (React, AWS Lambda, Python, etc), this seemed the most appropriate.
 
 ## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Once installed the VS Code extensions recommended,
+
+Install dependencies with 
+```bash
+npm install
+```
+
+Start a development server:
 
 ```bash
 npm run dev
@@ -34,5 +33,3 @@ npm run build
 ```
 
 You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.

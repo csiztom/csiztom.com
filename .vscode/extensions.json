@@ -9,8 +9,6 @@
 		"bradlc.vscode-tailwindcss",
 		"stylelint.vscode-stylelint",
 		"cpylua.language-postcss",
-		"aaron-bond.better-comments",
 		"svelte.svelte-vscode",
-		"prisma.prisma"
 	]
 }

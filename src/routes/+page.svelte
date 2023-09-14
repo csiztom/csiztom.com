@@ -1,3 +1,9 @@
+<style>
+	section {
+		background: var(--color-background);
+	}
+</style>
+
 <script>
 	import Section from '$lib/components/Section.svelte'
 </script>
