@@ -4,5 +4,5 @@
 </script>
 
 <div>
-	<p>{name}</p>
+	<p class="btn btn-primary">{name}</p>
 </div>
