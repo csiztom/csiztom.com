@@ -1,2 +1,15 @@
 @import 'tailwindcss';
+@plugin "@tailwindcss/typography";
 @plugin "daisyui";
+
+@font-face {
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(EBGaramond-VariableFont_wght.ttf) format('truetype');
+}
+
+html {
+    font-family: "EB Garamond"
+}
