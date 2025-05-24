@@ -7,9 +7,7 @@
 	"trailingComma": "es5",
 	"htmlWhitespaceSensitivity": "css",
 	"arrowParens": "avoid",
-	"plugins": [
-		"prettier-plugin-svelte"
-	],
+	"plugins": ["prettier-plugin-svelte"],
 	"pluginSearchDirs": false,
 	"svelteSortOrder": "options-styles-scripts-markup",
 	"svelteStrictMode": false,

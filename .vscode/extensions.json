@@ -9,6 +9,6 @@
 		"bradlc.vscode-tailwindcss",
 		"stylelint.vscode-stylelint",
 		"cpylua.language-postcss",
-		"svelte.svelte-vscode",
+		"svelte.svelte-vscode"
 	]
 }

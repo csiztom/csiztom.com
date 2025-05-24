@@ -10,7 +10,8 @@ I decided on SvelteKit as it provides an easy flow between backend and frontend,
 
 Once installed the VS Code extensions recommended,
 
-Install dependencies with 
+Install dependencies with
+
 ```bash
 npm install
 ```

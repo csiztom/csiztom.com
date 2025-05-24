@@ -1,16 +1,23 @@
 module.exports = {
 	root: true,
 	parser: '@typescript-eslint/parser',
-	extends: ['eslint:recommended', 'plugin:@typescript-eslint/recommended','plugin:svelte/prettier', 'prettier'],
-	plugins: ['@typescript-eslint','prettier'],
+	extends: [
+		'eslint:recommended',
+		'plugin:@typescript-eslint/recommended',
+		'plugin:svelte/prettier',
+		'prettier',
+	],
+	plugins: ['@typescript-eslint', 'prettier'],
 	ignorePatterns: ['*.cjs'],
-	overrides: [{
-		files: ['**/*.svelte'],
-		parser: 'svelte-eslint-parser',
-		parserOptions: {
-			parser: '@typescript-eslint/parser'
-		}
-	},],
+	overrides: [
+		{
+			files: ['**/*.svelte'],
+			parser: 'svelte-eslint-parser',
+			parserOptions: {
+				parser: '@typescript-eslint/parser',
+			},
+		},
+	],
 	parserOptions: {
 		sourceType: 'module',
 		ecmaVersion: 2022,
@@ -19,7 +26,7 @@ module.exports = {
 	env: {
 		browser: true,
 		es2017: true,
-		node: true
+		node: true,
 	},
 	rules: {
 		// Possible Errors
@@ -51,4 +58,4 @@ module.exports = {
 		'no-console': ['warn', { allow: ['warn', 'error'] }],
 		'no-labels': ['error', { allowLoop: true }],
 	},
-};
+}
