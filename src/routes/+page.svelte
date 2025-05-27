@@ -7,7 +7,7 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
+	<title>Tamás Csizmadia</title>
 	<meta name="description" content="Personal website" />
 </svelte:head>
 
