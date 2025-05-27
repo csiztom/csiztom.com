@@ -1,6 +1,6 @@
 {
 	"eslint.enable": true,
-	"prettier.enable": false,
+	"prettier.enable": true,
 	"editor.codeActionsOnSave": {
 		"source.fixAll.eslint": "explicit",
 		"source.fixAll.stylelint": "explicit"
@@ -8,5 +8,9 @@
 	"editor.formatOnSave": true,
 	"eslint.codeActionsOnSave.rules": null,
 	"eslint.format.enable": true,
-	"eslint.validate": ["javascript", "svelte"]
+	"eslint.validate": ["javascript", "svelte", "typescript"],
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	}
 }

@@ -3,14 +3,23 @@
 @plugin "daisyui";
 
 @font-face {
-  font-family: 'EB Garamond';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(EBGaramond12-Regular.woff) format('woff');
-  font-feature-settings: "ss06";
+	font-family: 'EB Garamond';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(EBGaramond12-Regular.otf) format('opentype');
+	font-feature-settings: 'ss06';
 }
 
 html {
-    font-family: "EB Garamond"
+	font-family: 'EB Garamond';
+}
+
+.glass-effect {
+	/* From https://css.glass */
+	background: rgba(255, 255, 255, 0.2);
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	border: 1px solid rgba(255, 255, 255, 0.3);
 }
