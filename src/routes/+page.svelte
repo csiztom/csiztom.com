@@ -15,7 +15,4 @@
 	<Section>
 		<Introduction />
 	</Section>
-	<Section>
-		<Introduction />
-	</Section>
 </div>
