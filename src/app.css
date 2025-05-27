@@ -7,7 +7,8 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(EBGaramond-VariableFont_wght.ttf) format('truetype');
+  src: url(EBGaramond12-Regular.woff) format('woff');
+  font-feature-settings: "ss06";
 }
 
 html {
